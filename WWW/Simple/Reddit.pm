@@ -1,5 +1,16 @@
 package Reddit;
 
+############################################################################
+#
+# Copyright 2010-2011 Hathibelagal Mohammed.  All rights reserved.
+#
+# This module may be used and modified freely, but I do request that this
+# copyright notice remain attached to the file.  You may modify this module 
+# as you wish, but if you redistribute a modified version, please attach a 
+# note listing the modifications you have made.
+#
+############################################################################
+
 use strict;
 use warnings;
 use Carp;
