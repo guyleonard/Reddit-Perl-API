@@ -7,10 +7,3 @@ This module lets you,
 Additional functionality,
 	1. Returns data in XML, JSON or RSS
 	2. Helps you parse the XML returned (if XML format is chosen)
-
-TODO
-----
-	1. Fetch comments for a specified post
-	2. Fetch comments of a specified author
-	3. Fetch more than just the first page of any query
-
