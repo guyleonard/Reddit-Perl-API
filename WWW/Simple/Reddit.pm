@@ -171,14 +171,19 @@ sub get_links_from_xml{
 		foreach(@$contents) {
 			my $current_value={
 				link=>$_->{link},
-				title=>$_->{title}
+				title=>$_->{title},
+				pubDate=>$_->{pubDate},
+                                description=>$_->{description}
+
 			};
 		push @return_value,$current_value;
 		}
 	}else{
 		my $current_value={
 			link=>$xml->{channel}->{item}->{link},
-			title=>$xml->{channel}->{item}->{title}
+			title=>$xml->{channel}->{item}->{title},	
+                        pubDate=>$xml->{channel}->{item}->{pubDate},
+                        description=>$xml->{channel}->{item}->{description}
 		};
 		push @return_value,$current_value;
 	}
